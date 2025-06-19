@@ -3,7 +3,9 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
 import ImageUpload from "../imageUpload/ImageUpload";
-import CatalogUpload from "../catalogUpload/catalogUpload";
+import CatalogUpload from "../catalogUpload/CatalogUpload";
+import TestImageUpload from "../testImageUpload/TestImageUpload";
+import ArticleUpload from "../articleUpload/ArticleUpload";
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -92,7 +94,7 @@ export default function TabBar() {
         <CatalogUpload />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        Item Two
+        <ArticleUpload/>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
         Item Three
