@@ -59,7 +59,7 @@ const TestImageUpload = () => {
 
     try {
       // It's a good practice to store the base URL in an environment variable.
-      const backendUrl = 'http://localhost:8000'; // <-- IMPORTANT: Replace this!
+      const backendUrl = 'https://adminbackend-production-d76a.up.railway.app';
       
       const response = await fetch(`${backendUrl}/upload`, {
         method: 'POST',

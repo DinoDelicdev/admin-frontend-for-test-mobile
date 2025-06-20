@@ -80,7 +80,7 @@ export default function TabBar() {
           />
           <Tab
             sx={{ fontWeight: 900 }}
-            label="Item Two"
+            label="DODAJ ARTIKAL"
             {...a11yProps(1)}
           />
           <Tab
